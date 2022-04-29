@@ -1,0 +1,16 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Meteo: servizio online di meteorologia",
+    "description": "Sito online per il meteo mondiale",
+    "author": {
+        "@type": "Person",
+        "name": "Nome Cognome"
+    },
+    "publisher": {
+        "@type": "CollegeOrUniversity",
+        "name": "unimi"
+    },
+    "copyrightYear": "2022",
+    "lastReviewed": "22 April 2022"
+}
