@@ -4,6 +4,5 @@ async function getWeather() {
     console.log(jsonObj);
     document.getElementById('weather-temp').innerText = jsonObj.main.temp + "°";
 
-
 }
 getWeather();
