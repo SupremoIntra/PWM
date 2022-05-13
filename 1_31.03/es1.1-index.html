@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Titolo </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<!--link al file CSS dove prendo le regole di stile-->
+		
+		<!--meglio farlo con CSS
+		<style type="text/css">
+			header {border: 3px solid red;}
+			aside {background-color: pink;}
+		</style>-->
+		
+    </head>
+    <body>
+	
+        <header> <!--la testa del mio foglio html-->
+            <h1 class = "testo"> Provissi </h1>
+			
+			<!--barra di navigazione-->
+            <nav>
+                <a href="https://ansa.it"> Active </a> <!--tante ancore che si riferiscono ad un link-->
+                <a href="#"> Link </a>
+                <a href="#"> Link </a>
+                <a href="#"> Link </a>
+                <a href="#"> Link </a>
+                <input type="text" name="txtCerca" value="cerca">
+				<!--un input di tipo search (casella che mi fa cercare cose nella pag)-->
+            </nav>
+        </header>
+
+
+		<!--sezione della pagina a lato-->
+        <aside>
+            <h2> Sidebar </h2>
+            <h3> Advertisement </h3>
+        </aside>
+
+        <div id="content"> <!--contenitore per racchiudere contenuto-->
+
+            <main>
+                <article>
+						<h2> ciao sono Nello </h2>
+						<figure><!--banale immagine-->
+							<img width="100px" src="http://thecatandthedog.com/wp-content/uploads/2020/11/kitten-440379.jpg">
+							<figcaption> gattoooo</figcaption>
+						</figure>
+					
+                    <p> 
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores ipsum distinctio ducimus, 
+                        dicta natus accusantium magni minima vel <span class="evidenziato"> commodi </span>, at vero iste nobis, nesciunt nostrum quo odio? 
+                        Unde, tempora dignissimos.
+                    </p>
+                    <section><!--sezione per firma autore-->
+                        <p> Flavio </p>
+						<!--formato data processabile da linguaggio di prog-->
+                        <time datetime="2021-03-18"> 18 marzo </time>
+                    </section>
+                </article>
+                
+            </main>
+
+            <div id="headings"> <!--contenitore per racchiudere gli headings-->
+                <article>
+                    <h3> Heading </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, id dolorum odio doloribus deleniti commodi reiciendis totam! Obcaecati dolorem, ratione illo impedit quibusdam dolor consequuntur animi numquam perspiciatis accusamus assumenda.</p>
+                </article>
+
+                <article>
+                    <h3> Heading </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, id dolorum odio doloribus deleniti commodi reiciendis totam! Obcaecati dolorem, ratione illo impedit quibusdam dolor consequuntur animi numquam perspiciatis accusamus assumenda.</p>
+                </article>
+
+                <article>
+                    <h3> Heading </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, id dolorum odio doloribus deleniti commodi reiciendis totam! Obcaecati dolorem, ratione illo impedit quibusdam dolor consequuntur animi numquam perspiciatis accusamus assumenda.</p>
+                </article>
+
+                <article>
+                    <h3> Heading </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, id dolorum odio doloribus deleniti commodi reiciendis totam! Obcaecati dolorem, ratione illo impedit quibusdam dolor consequuntur animi numquam perspiciatis accusamus assumenda.</p>
+                </article>
+            </div>
+
+        </div>
+
+    </body>
+</html>

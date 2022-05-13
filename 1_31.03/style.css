@@ -1,0 +1,62 @@
+header {
+	border: 3px solid red;
+	margin: auto;
+	width: 60%;
+	padding: 1px;
+}
+nav{
+	background-color: black;
+	margin: 10px;
+	margin-bottom: 20px;
+}
+
+a{
+	color: whitesmoke;
+	margin: 1px;
+}
+
+a:hover{
+	color: lightblue;
+}
+
+nav > input {
+	position: relative;
+	margin-right: 5px;
+	float: right;
+}
+
+aside {
+	background-color: lightblue;
+	border-width: 2px;
+	width: 30%;
+	padding: 10px;
+	float: right;
+}
+
+#content{
+	border: 3px solid green;
+	margin: auto;
+	width: 70%;
+	padding: 10px;
+}
+
+main{
+	background-color: lightgrey;
+	margin: 10px;
+	padding: 10px;
+}
+
+#headings{
+	background-color: limegreen;
+	width: 50%;
+}
+
+
+.testo {
+    
+    margin: center;
+}
+
+
+
+
