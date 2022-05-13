@@ -1,0 +1,16 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Meteo Intra",
+    "description": "Sito online per il meteo",
+    "author": {
+        "@type": "Person",
+        "name": "Daniele Intra"
+    },
+    "publisher": {
+        "@type": "CollegeOrUniversity",
+        "name": "unimi"
+    },
+    "copyrightYear": "2022",
+    "lastReviewed": "29 April 2022"
+}
