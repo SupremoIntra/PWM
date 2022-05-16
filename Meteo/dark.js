@@ -7,7 +7,7 @@
             date: new Date().getTime() / (60 * 24 * 24 * 3),
         }
         console.log(obj);
-        state = localStorage.getItem(obj.darkMode)
+        state = localStorage.getItem(JSON.parse(obj.darkMode))
         itemN = Object.keys(localStorage).length + 1;
         localStorage.setItem('mode' + itemN, JSON.stringify(obj.darkMode));
 
